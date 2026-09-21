@@ -1,0 +1,19 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.playwright-cli/
+.chart-data-*/
+output/
+*.log
+
+# Licensed local inputs and derived caches
+sheet*.csv
+sheet*.xlsx
+data/*
+!data/README.md
+
+# Office temporary files
+~$*.pptx
+~$*.xlsx
